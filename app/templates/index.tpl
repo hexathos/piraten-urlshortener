@@ -27,7 +27,7 @@
     <meta name="author" content="">
     <link href="{$config.baseurl}/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="{$config.baseurl}/assets/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
-    <link href="{$config.baseurl}/assets/css/ipsmith.css" rel="stylesheet">
+    <link href="{$config.baseurl}/assets/css/ppgp.css" rel="stylesheet">
     <script src="{$config.baseurl}/assets/js/jquery-1.8.2.min.js"></script>
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -35,11 +35,14 @@
     <![endif]-->
   </head>
 <body>
-  {include file="_navigation/topbar.tpl"}
+    {include file="_navigation/topbar.tpl"}
+
     <div class="container">
-          {include file="$currentModule/$currentPage.tpl"}
+      {include file="$currentModule/$currentPage.tpl"}
+      {include file="_navigation/footer.tpl"}
     </div><!--/container-->
-   {include file="_navigation/footer.tpl"}
+
+
     <script src="{$config.baseurl}/assets/bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
