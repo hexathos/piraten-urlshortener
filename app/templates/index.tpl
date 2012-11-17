@@ -41,7 +41,6 @@
 
   <body>
 {include file="_navigation/topbar.tpl"}
-<div id="wrap">
     <div class="container-fluid">
       <div class="row-fluid">
         <div class="span3">
@@ -55,16 +54,15 @@
          </div><!--/row-->
 
     </div><!--/.fluid-container-->
-</div>
-<div id="push">
-    <div id="footer">
-      <div class="container">
-        <p class="muted credit">&copy; 2012 Rainer &quot;<a href="https://twitter.com/mrbendig" target="_blank">@mrbendig</a>&quot; Bendig - Open Source, take a look @ <a href="https://github.com/mrbendig/piraten-urlshortener">GitHub</a>. </p>
-      </div>
-    </div>
-</div>
 
-</div>
+
+            {include file="_navigation/footer.tpl"}
+      <hr>
+
+      <footer>
+        <p>&copy; Company 2012</p>
+      </footer>
+
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
