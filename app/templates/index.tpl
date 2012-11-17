@@ -38,7 +38,7 @@
   {include file="_navigation/topbar.tpl"}
     <div class="container">
           {include file="$currentModule/$currentPage.tpl"}
-    </div><!--/.fluid-container-->
+    </div><!--/container-->
    {include file="_navigation/footer.tpl"}
     <script src="{$config.baseurl}/assets/bootstrap/js/bootstrap.min.js"></script>
   </body>
