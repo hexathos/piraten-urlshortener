@@ -36,15 +36,8 @@
   </head>
 <body>
   {include file="_navigation/topbar.tpl"}
-    <div class="container-fluid">
-      <div class="row-fluid">
-        <div class="span3">
-          {include file="_navigation/sidebar.tpl"}
-        </div><!--/span-->
-        <div class="span9">
+    <div class="container">
           {include file="$currentModule/$currentPage.tpl"}
-	      </div><!--/span-->
-      </div><!--/row-->
     </div><!--/.fluid-container-->
    {include file="_navigation/footer.tpl"}
     <script src="{$config.baseurl}/assets/bootstrap/js/bootstrap.min.js"></script>
