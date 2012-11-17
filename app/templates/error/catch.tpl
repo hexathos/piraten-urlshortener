@@ -4,10 +4,11 @@
 <strong>Fehler:</strong><br /> {$smarty.session.lasterror->getMessage()}
 </div>
 <a href="#" id="displayerror" class="btn btn-primary">Details ein-/ausblenden</a>
-
+{literal}
 <script>
 $("#displayerror").click(function () {$("#errordetail").toggle();});
 </script>
+{/literal}
 <div id="errordetail" style="display:none;">
     <pre>
         {$smarty.session.lasterror}
