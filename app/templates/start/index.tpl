@@ -20,6 +20,7 @@
         <legend>Verkürze deinen Link</legend>
 
         <input type="text" placeholder="Link eintragen um Ihn zu verkürzen..." class="input-xxlarge">
+         <span class="help-block">http:// wird automatisch hinzugefügt, falls nicht vorhanden.</span><br />
         <button type="submit" class="btn btn-large btn-primary">Los!</button>
     </fieldset>
 </form>
