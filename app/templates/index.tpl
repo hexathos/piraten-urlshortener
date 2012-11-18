@@ -36,12 +36,14 @@
   </head>
 <body>
     {include file="_navigation/topbar.tpl"}
-<div id="ppgp">
+
     <div class="container">
-      {include file="$currentModule/$currentPage.tpl"}
-      {include file="_navigation/footer.tpl"}
+      <div id="ppgp">
+        {include file="$currentModule/$currentPage.tpl"}
+        {include file="_navigation/footer.tpl"}
+      </div>
     </div><!--/container-->
-</div>
+
 
     <script src="{$config.baseurl}/assets/bootstrap/js/bootstrap.min.js"></script>
   </body>
