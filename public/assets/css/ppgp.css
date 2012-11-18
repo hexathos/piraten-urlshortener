@@ -15,11 +15,5 @@
  **/
 body {
   padding-top: 60px;
-  background-image: url(../piraten_tile.jpg);
-  background-color:#FF8800;
-  color: #000000;
 }
 
-#ppgp { color:#000000;}
-#ppgp a:link, #ppgp a:visited {color:#000000;}
-#ppgp  a:hover, #ppgp a:visited {color:#000000;border-bottom:1px solid #000000; }
