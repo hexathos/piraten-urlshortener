@@ -20,5 +20,6 @@ body {
   color: #000000;
 }
 
-#ppgp a:link, #ppgp a:visited {color:#FF8800;}
-#ppgp  a:hover, #ppgp a:visited {color:#FF8800;border-bottom:1px solid #000000; }
+#ppgp { color:#000000;}
+#ppgp a:link, #ppgp a:visited {color:#000000;}
+#ppgp  a:hover, #ppgp a:visited {color:#000000;border-bottom:1px solid #000000; }
