@@ -14,3 +14,13 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 *}
 
+<div class="well">
+<form>
+    <fieldset>
+        <legend>Verkürze deinen Link</legend>
+
+        <input type="text" placeholder="Link eintragen um Ihn zu verkürzen...">
+        <button type="submit" class="btn">Submit</button>
+    </fieldset>
+</form>
+</div>
