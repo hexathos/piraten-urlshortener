@@ -15,12 +15,12 @@
 *}
 
 <div class="well">
-<form>
+<form class="form">
     <fieldset>
         <legend>Verkürze deinen Link</legend>
 
-        <input type="text" placeholder="Link eintragen um Ihn zu verkürzen...">
-        <button type="submit" class="btn">Submit</button>
+        <input type="text" placeholder="Link eintragen um Ihn zu verkürzen..." class="input-xxlarge">
+        <button type="submit" class="btn btn-large btn-primary">Los!</button>
     </fieldset>
 </form>
 </div>
